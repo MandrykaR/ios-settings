@@ -1,0 +1,52 @@
+{
+	"device": {
+		"brand": "Apple",
+		"model": "iPhone 14 PRO",
+		"status": "Optimization Recommended"
+	},
+	"status_summary": {
+		"overall_result": "Optimization Recommended",
+		"recommendation": "A quick checkup is recommended for your phone"
+	},
+	"action_required": {
+		"total_items": 4,
+		"items": [
+			{
+				"name": "Settings Optimization"
+			},
+			{
+				"name": "Data Management"
+			},
+			{
+				"name": "Web Page Check"
+			},
+			{
+				"name": "Mail Preferences"
+			}
+		]
+	},
+	"personal_info_sections": [
+		{
+			"name": "Name, Phone Numbers, Email"
+		},
+		{
+			"name": "Payment & Shipping",
+			"content": "Mastercard"
+		},
+		{
+			"name": "Subscriptions"
+		}
+	],
+	"device_info": {
+		"type": "iPhone",
+		"description": "This Phone"
+	},
+	"optimization_status": {
+		"message": "Your iPhone could use some optimization",
+		"submessage": "No rush — let's keep everything running smoothly"
+	},
+	"actions": {
+		"primary": "Optimize Now",
+		"secondary": "Run Checkup"
+	}
+}

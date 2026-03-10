@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/fonts.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Apple Settings</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="container__content">
+				<div class="device-card">
+					<div class="device-card__icon">
+						<img
+							class="device-card__icon-img"
+							src="./img/logo-settings.svg"
+							alt="device icon"
+						/>
+					</div>
+					<div class="device-card__info">
+						<h1 class="device-card__brand"></h1>
+						<p class="device-card__model"></p>
+						<p class="device-card__result"></p>
+					</div>
+
+					<div class="device-card__actions">
+						<button class="device-card__button">Action Required</button>
+					</div>
+				</div>
+
+				<div class="settings-list">
+					<ul class="settings-list__items"></ul>
+				</div>
+
+				<div class="settings-menu"></div>
+
+				<div class="device">
+					<img class="device__icon" src="./img/iphone.svg" alt="Device" />
+					<div class="device__info">
+						<h3 class="device__title"></h3>
+						<p class="device__subtitle"></p>
+					</div>
+				</div>
+				<div class="optimize">
+					<button class="optimize__button"></button>
+				</div>
+			</div>
+		</div>
+
+		<div class="optimize-alert hidden" id="alert-info">
+			<div class="alert__overlay"></div>
+
+			<div class="alert__modal">
+				<h2 class="alert__title"></h2>
+
+				<p class="alert__subtitle"></p>
+
+				<div class="alert__timer">01:00</div>
+
+				<div class="alert__image-wrap">
+					<img
+						class="alert__image"
+						src="./img/logo-settings.svg"
+						alt="Optimization icon"
+					/>
+					<span class="alert__badge">!</span>
+				</div>
+
+				<button class="alert__button"></button>
+			</div>
+		</div>
+
+		<div class="notification" id="notification">
+			<img
+				class="notification__icon"
+				src="./img/logo-settings.svg"
+				alt="logo"
+			/>
+
+			<div class="notification__content">
+				<div class="notification__title">
+					<span class="notification__name">Settings</span>
+					<span class="notification__time">now</span>
+				</div>
+
+				<div class="notification__text"></div>
+			</div>
+		</div>
+
+		<script src="./main.js"></script>
+	</body>
+</html>
